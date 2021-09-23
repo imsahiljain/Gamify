@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="/public/css/login.css">
+    <title>Gamify | Login</title>
+</head>
+<body>
+
+    <!-- navbar section -->
+    
+    <header id="header">
+        <nav class="navbar">
+            <div class="hamburger">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+            <div class="logo">
+                <h2 class="gamify-logo">Gamify</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#products">Products</a></li>
+                <li><a href="../index.html#offers">Offers</a></li>
+                <li><a href="../stores/stores.html">Our Stores</a></li>
+                <li><a href="#">Your Orders</a></li>
+                <li id="cart-button"><a href="../cart/cart.html"><ion-icon name="cart-outline" id="icon"></ion-icon></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- login section -->
+
+    <div class="center">
+        <h1>Login</h1>
+        <form action="/public/pages/dashboard/dashboard.html">
+        <div class="txt-field">
+            <input type="text" required>
+            <span></span>
+            <label>Username</label>
+        </div>
+        <div class="txt-field">
+            <input type="password" required>
+            <span></span>
+            <label>Password</label>
+        </div>
+        <input type="submit" value="Login">
+        </form>
+    </div>
+
+
+    <script src="/public/js/index.js"></script>
+</body>
+</html>

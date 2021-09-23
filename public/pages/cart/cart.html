@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="/public/css/cart.css">
+    <title>Gamify | Cart</title>
+</head>
+<body>
+
+    <!-- navbar section -->
+    
+    <header id="header">
+        <nav class="navbar">
+            <div class="hamburger">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+            <div class="logo">
+                <h2 class="gamify-logo">Gamify</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#products">Products</a></li>
+                <li><a href="../index.html#offers">Offers</a></li>
+                <li><a href="../stores/stores.html">Our Stores</a></li>
+                <li><a href="../login/login.html">Your Orders</a></li>
+                <li id="cart-button"><a href=""><ion-icon name="cart-outline" id="icon"></ion-icon></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- banner section -->
+
+    <section class="banner-main">
+        <h1>Your Cart</h1>
+    </section>
+
+    <div class="cart-container">
+
+        <div class="cart-items">
+              <div class="about">
+                  <h1 class="title">Playstation 5</h1>
+              </div>
+              <div class="counter">
+                  <div class="btn">+</div>
+                  <div class="count">1</div>
+                  <div class="btn">-</div>
+              </div>
+              <div class="prices">
+                  <div class="amount">Rs 59,990</div>
+              </div>
+        </div>
+
+        <div class="cart-items pad">
+              <div class="about">
+                  <h1 class="title">Firefly Silicone Cover</h1>
+              </div>
+              <div class="counter">
+                  <div class="btn">+</div>
+                  <div class="count">1</div>
+                  <div class="btn">-</div>
+              </div>
+              <div class="prices">
+                  <div class="amount">Rs 600</div>
+              </div>
+        </div>
+      
+        <div class="btn-main">
+            <button onClick="location.href='../login/login.html'" class="char-btn">Checkout<ion-icon name="arrow-forward-outline" id="right-arrow"></ion-icon></button>
+        </div>
+    </div>
+
+
+    <script src="/public/js/index.js"></script>
+</body>
+</html>

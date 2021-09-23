@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- mapbox api -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.4.0/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+    <link rel="stylesheet" href="/public/css/stores.css">
+    <title>Gamify | Stores</title>
+</head>
+<body>
+
+    <!-- navbar section -->
+    
+    <header id="header">
+        <nav class="navbar">
+            <div class="hamburger">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+            <div class="logo">
+                <h2 class="gamify-logo">Gamify</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#products">Products</a></li>
+                <li><a href="../index.html#offers">Offers</a></li>
+                <li><a href="../stores/stores.html">Our Stores</a></li>
+                <li><a href="../login/login.html">Your Orders</a></li>
+                <li id="cart-button"><a href=""><ion-icon name="cart-outline" id="icon"></ion-icon></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- banner section -->
+
+    <section class="banner-main">
+        <h1>Our Stores</h1>
+    </section>
+
+    <div id="map"></div>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoic2FoaWwwNiIsImEiOiJja3NlYXAzcGUweXZzMm9vZDF6a213a3YwIn0.2TqRpF9Ot8N3TcY5vKY0ag';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [77.1888, 28.6550],
+            zoom: 2
+        });
+      
+        map.addControl(
+            new mapboxgl.GeolocateControl({
+                positionOptions: {
+                    enableHighAccuracy: true
+                },
+                trackUserLocation: true,
+                showUserHeading: true
+            })
+        );
+        const marker1 = new mapboxgl.Marker({ color: 'black'})
+        .setLngLat([77.1888, 28.7095])
+        .addTo(map);
+
+        const marker2 = new mapboxgl.Marker({ color: 'black'})
+        .setLngLat([12.65147, 55.608166])
+        .addTo(map);
+
+        const marker3 = new mapboxgl.Marker({ color: 'black'})
+        .setLngLat([79.3832, 43.6532])
+        .addTo(map);
+
+        const marker4 = new mapboxgl.Marker({ color: 'black'})
+        .setLngLat([-95.7129, 37.0902])
+        .addTo(map);
+
+        const marker5 = new mapboxgl.Marker({ color: 'black'})
+        .setLngLat([105.3188, 61.5240])
+        .addTo(map);
+
+        const marker6 = new mapboxgl.Marker({ color: 'black'})
+        .setLngLat([-51.9253, -14.2350])
+        .addTo(map);
+
+        const marker7 = new mapboxgl.Marker({ color: 'black'})
+        .setLngLat([-79.3832, 43.6532])
+        .addTo(map);
+      </script>
+    <script src="/public/js/index.js"></script>
+</body>
+</html>
