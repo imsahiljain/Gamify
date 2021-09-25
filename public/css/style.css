@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Product Sans Reg";
-  src: url("/public/fonts/Product_Sans_Regular.ttf");
+  src: url("../fonts/Product_Sans_Regular.ttf");
 }
 
 @font-face {
   font-family: "Product Sans Bold";
-  src: url("/public/fonts/Product_Sans_Bold.ttf");
+  src: url("../fonts/Product_Sans_Bold.ttf");
 }
 
 * {
@@ -320,7 +320,7 @@ html {
   padding: 4rem 2rem;
   align-items: center;
   text-align: center;
-  background-image: url(/public/assets/bg1-blur-dark.jpg);
+  background-image: url(../assets/bg1-blur-dark.jpg);
   background-size: cover;
   background-position: top;
 }

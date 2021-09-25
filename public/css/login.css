@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Product Sans Reg";
-  src: url("/public/fonts/Product_Sans_Regular.ttf");
+  src: url("../fonts/Product_Sans_Regular.ttf");
 }
 
 @font-face {
   font-family: "Product Sans Bold";
-  src: url("/public/fonts/Product_Sans_Bold.ttf");
+  src: url("../fonts/Product_Sans_Bold.ttf");
 }
 
 * {
@@ -18,7 +18,7 @@
 body {
   background-color: #fff;
   font-family: "Product Sans Reg" !important;
-  background-image: url(/public/assets/bg-blur-less.jpg);
+  background-image: url(../assets/bg-blur-less.jpg);
 }
 
 html {

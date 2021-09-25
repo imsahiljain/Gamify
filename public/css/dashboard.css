@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Product Sans Reg";
-  src: url("/public/fonts/Product_Sans_Regular.ttf");
+  src: url("../fonts/Product_Sans_Regular.ttf");
 }
 
 @font-face {
   font-family: "Product Sans Bold";
-  src: url("/public/fonts/Product_Sans_Bold.ttf");
+  src: url("../fonts/Product_Sans_Bold.ttf");
 }
 
 * {
@@ -222,7 +222,7 @@ html {
     padding-top: 100px;
     /* background-color: #f5f5f573; */
     /* background-color: #3c45f15d;     */
-    background-image: url(/public/assets/bg-blur-less.jpg);
+    background-image: url(../assets/bg-blur-less.jpg);
     background-position: center;
     background-size: cover;
     
