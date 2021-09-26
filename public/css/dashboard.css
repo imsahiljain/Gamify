@@ -36,184 +36,6 @@ html {
   background: #102536;
 }
 
-/* .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  box-shadow: rgba(0, 0, 0, 0.05) 0 48px 100px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.096);
-  min-height: 7vh;
-  position: fixed;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 100%;
-  top: 0;
-  z-index: 999;
-  color: #fff;
-}
-
-#icon {
-  background-color: #fff;
-  border-radius: 50%;
-}
-
-.logo {
-  width: 27px;
-  height: 27px;
-}
-
-.nav-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 38%;
-  margin-top: 0.1%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  transition: 0.12s ease;
-}
-
-.nav-links a:hover {
-  text-decoration: underline;
-}
-
-.nav-links li {
-  list-style: none;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 400;
-  transition: 0.2s ease-in;
-}
-
-.nav-links a:hover {
-  cursor: pointer;
-}
-
-.hamburger {
-  display: none;
-}
-
-#cart-button {
-  cursor: pointer;
-  color: white;
-  margin-top: 0.5%;
-  border-radius: 50%;
-  font-size: 1.2em;
-  font-weight: 900;
-  -webkit-transition: 200ms ease-in-out;
-  transition: 200ms ease-in-out;
-}
-
-#icon {
-  color: #1a1a1a;
-}
-
-#cart-button #icon {
-  padding: 5px;
-  width: 1.8rem;
-  height: 1.8rem;
-}
-
-#cart-button:hover {
-  -webkit-transform: scale(1.12);
-  transform: scale(1.12);
-} */
-/* 
-.column {
-	margin-top: 150px;
-	float: left;
-	width: 22%;
-	padding: 0 10px
-}
-
-.column h3 {
-	font-size: 1.5rem;
-	font-family: Product Sans Reg
-}
-
-.column p {
-	font-size: 1.2rem;
-	font-family: Product Sans Reg
-}
-
-.row {
-	margin: 0 -5px
-}
-
-.row:after {
-	content: "";
-	display: table;
-	clear: both
-}
-
-.card1 {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	padding: 16px;
-	text-align: center;
-	background-color: #3b3b3b;
-	border-radius: 10px;
-	color: #fff
-}
-
-.card2 {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	padding: 16px;
-	text-align: center;
-	background-color: #3b3b3b;
-	border-radius: 10px;
-	color: #fff
-}
-
-.card3 {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	padding: 16px;
-	text-align: center;
-	background-color: #3b3b3b;
-	border-radius: 10px;
-	color: #fff
-}
-
-.card4 {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	padding: 16px;
-	text-align: center;
-	background-color: #3b3b3b;
-	border-radius: 10px;
-	color: #fff
-}
-
-.column-two {
-	float: left;
-	width: 50%;
-	padding: 10px;
-	height: 300px
-}
-
-.column-two h2 {
-	color: #000;
-	font-family: Product Sans Reg;
-	font-size: 2rem
-}
-
-.row-two:after {
-	content: "";
-	display: table;
-	clear: both
-}
-} */
-
-
-
 .dashboard .head {
     height: 30vh;
     display: flex;
@@ -222,15 +44,17 @@ html {
     padding-top: 100px;
     /* background-color: #f5f5f573; */
     /* background-color: #3c45f15d;     */
-    background-image: url(../assets/bg-blur-less.jpg);
+    /* background-image: url(../assets/bg-blur-less.jpg);
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover; */
+    background-image: url(../assets/bg-2-dark.jpg);
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .head h1 {
     text-align: center;
-    font-size: 90px;
+    font-size: 120px;
     color: white;
 }
 
@@ -255,7 +79,7 @@ html {
 }
 
 .column h3 {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	font-family: Product Sans Reg
 }
 
@@ -281,7 +105,7 @@ html {
 
 .card {
 	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-    border: 1.5px solid rgba(74, 49, 218, 0.198);
+    border: 2px solid rgba(0, 0, 0, 0.137);
 	padding: 16px;
 	text-align: center;
 	/* background-color: #1f48ff25; */
@@ -317,8 +141,8 @@ html {
 }   
 
 .driver-card {
-    border: 1px solid rgba(74, 49, 218, 0.198);
-    max-width: 300px;
+  border: 2px solid rgba(0, 0, 0, 0.137);
+  max-width: 300px;
     margin: auto;
     text-align: center;
     border-radius: 10px;
