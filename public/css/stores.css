@@ -17,6 +17,9 @@
 
 body {
   background-color: #fff;
+  background-image: url(../assets/bg-2-dark.jpg);
+  background-position: center;
+  background-attachment: fixed;
   font-family: "Product Sans Reg" !important;
 }
 
@@ -134,7 +137,7 @@ html {
     padding-top: 150px;
     width: 100%;
     height: 20vh;
-    background-image: url(../assets/bg-blur-less.jpg);
+    /* background-image: url(../assets/bg-blur-less.jpg); */
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
@@ -142,7 +145,7 @@ html {
   }
   
   .banner-main h1 {
-    font-size: 110px;
+    font-size: 120px;
     color: #fff;
     text-align: center;
     letter-spacing: 0.1rem;
@@ -255,9 +258,10 @@ html {
   }
 
   #map {
-	height: 500px;
-	width: 900px;
-	margin-top: 70px;
+	height: 600px;
+	width: 1000px;
+	/* margin-top: 70px; */
     margin-left: auto;
     margin-right: auto;
+    border-radius: 9px;
 }   
