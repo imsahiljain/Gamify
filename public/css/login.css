@@ -17,8 +17,10 @@
 
 body {
   background-color: #fff;
+  background-image: url(../assets/bg-2-dark.jpg);
+  background-position: center;
+  background-attachment: fixed;
   font-family: "Product Sans Reg" !important;
-  background-image: url(../assets/bg-blur-less.jpg);
 }
 
 html {
@@ -137,11 +139,11 @@ html {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 400px;
+	width: 380px;
 	background: white;
 	border-radius: 10px;
 	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(0, 0, 0, 0.157);
+    border: 2px solid rgba(3, 3, 3, 0.157);
 }
 
 .center h1 {
@@ -149,6 +151,7 @@ html {
 	color: #272727;
 	padding: 20px 0;
     font-size: 32px;
+    font-family: Product Sans Bold;
 }
 
 .center form {
@@ -219,5 +222,6 @@ input[type="submit"] {
 	cursor: pointer;
 	outline: 0;
 	margin-bottom: 50px;
-	margin-top: 20px
+	margin-top: 20px;
+  font-family: Product Sans Reg;
 }
