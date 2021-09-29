@@ -417,6 +417,7 @@ footer {
   display: none;
   padding: 80px;
   text-align: center;
+  font-size: 27px;
 }
 
 .prev, .next {
@@ -468,10 +469,8 @@ footer {
   background-color: #717171;
 }
 
-q {font-style: italic;}
-
 .author {
-  color: cornflowerblue;
+  color: rgb(51, 110, 219);
 }
 
 .rev h1 {
