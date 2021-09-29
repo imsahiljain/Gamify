@@ -1,137 +1,134 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
-
 @font-face {
-  font-family: "Product Sans Reg";
-  src: url("../fonts/Product_Sans_Regular.ttf");
+	font-family: "Product Sans Reg";
+	src: url("../fonts/Product_Sans_Regular.ttf")
 }
 
 @font-face {
-  font-family: "Product Sans Bold";
-  src: url("../fonts/Product_Sans_Bold.ttf");
+	font-family: "Product Sans Bold";
+	src: url("../fonts/Product_Sans_Bold.ttf")
 }
 
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0
 }
 
 body {
-  background-color: #fff;
-  background-image: url(../assets/bg-2-dark.jpg);
-  background-attachment: fixed;
-  font-family: "Product Sans Reg" !important;
+	background-color: #fff;
+	background-image: url(../assets/bg-2-dark.jpg);
+	background-attachment: fixed;
+	font-family: "Product Sans Reg"!important
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
+	width: 7px
 }
 
 ::-webkit-scrollbar-track {
-  background: #fff;
+	background: #fff
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #102536;
+	background: #102536
 }
 
 .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  box-shadow: rgba(0, 0, 0, 0.05) 0 48px 100px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.096);
-  min-height: 7vh;
-  position: fixed;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 100%;
-  top: 0;
-  z-index: 999;
-  color: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	box-shadow: rgba(0, 0, 0, 0.05) 0 48px 100px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+	min-height: 7vh;
+	position: fixed;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 100%;
+	top: 0;
+	z-index: 999;
+	color: #fff
 }
 
 #icon {
-  background-color: #fff;
-  border-radius: 50%;
+	background-color: #fff;
+	border-radius: 50%
 }
 
 .logo {
-  width: 27px;
-  height: 27px;
+	width: 27px;
+	height: 27px
 }
 
 .nav-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 38%;
-  margin-top: 0.1%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  transition: 0.12s ease;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 38%;
+	margin-top: .1%;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	transition: .12s ease
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+	text-decoration: underline
 }
 
 .nav-links li {
-  list-style: none;
+	list-style: none
 }
 
 .nav-links a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.2rem;
-  font-weight: 400;
-  transition: 0.2s ease-in;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: 400;
+	transition: .2s ease-in
 }
 
 .nav-links a:hover {
-  cursor: pointer;
+	cursor: pointer
 }
 
 .hamburger {
-  display: none;
+	display: none
 }
 
 #cart-button {
-  cursor: pointer;
-  color: white;
-  margin-top: 0.5%;
-  border-radius: 50%;
-  font-size: 1.2em;
-  font-weight: 900;
-  -webkit-transition: 200ms ease-in-out;
-  transition: 200ms ease-in-out;
+	cursor: pointer;
+	color: white;
+	margin-top: .5%;
+	border-radius: 50%;
+	font-size: 1.2em;
+	font-weight: 900;
+	-webkit-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out
 }
 
 #icon {
-  color: #1a1a1a;
+	color: #1a1a1a
 }
 
 #cart-button #icon {
-  padding: 5px;
-  width: 1.8rem;
-  height: 1.8rem;
+	padding: 5px;
+	width: 1.8rem;
+	height: 1.8rem
 }
 
 #cart-button:hover {
-  -webkit-transform: scale(1.12);
-  transform: scale(1.12);
+	-webkit-transform: scale(1.12);
+	transform: scale(1.12)
 }
-
-
 
 .center {
 	position: absolute;
@@ -142,15 +139,15 @@ html {
 	background: white;
 	border-radius: 10px;
 	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
-    border: 2px solid rgba(3, 3, 3, 0.157);
+	border: 2px solid rgba(3, 3, 3, 0.157)
 }
 
 .center h1 {
 	text-align: center;
 	color: #272727;
 	padding: 20px 0;
-    font-size: 32px;
-    font-family: Product Sans Bold;
+	font-size: 32px;
+	font-family: Product Sans Bold
 }
 
 .center form {
@@ -183,7 +180,7 @@ form .txt-field {
 	font-size: 19px;
 	pointer-events: none;
 	transition: .5s;
-    font-family: Product Sans Reg;
+	font-family: Product Sans Reg
 }
 
 .txt-field span::before {
@@ -222,5 +219,5 @@ input[type="submit"] {
 	outline: 0;
 	margin-bottom: 50px;
 	margin-top: 20px;
-  font-family: Product Sans Reg;
+	font-family: Product Sans Reg
 }
