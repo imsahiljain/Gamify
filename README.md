@@ -1,6 +1,6 @@
 # Gamify
 
-Gamify is a gaming store website made for Teachnophilia event.
+Gamify is a gaming store website.
 
 
 ## Features
