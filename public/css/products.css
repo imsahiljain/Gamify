@@ -16,6 +16,8 @@
 
 body {
 	background-color: #fff;
+	background-image: url(../assets/bg-2-dark.jpg);
+	background-attachment: fixed;
 	font-family: "Product Sans Reg"!important
 }
 
@@ -39,8 +41,8 @@ html {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	box-shadow: rgba(0, 0, 0, 0.05) 0 48px 100px 0;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+	box-shadow: rgba(168, 168, 168, 0.05) 0 48px 100px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.096);
 	min-height: 7vh;
 	position: fixed;
 	-ms-flex-pack: distribute;
@@ -51,7 +53,7 @@ html {
 	width: 100%;
 	top: 0;
 	z-index: 999;
-	color: #000
+	color: #fff
 }
 
 #icon {
@@ -62,9 +64,8 @@ html {
 .logo {
 	width: 27px;
 	height: 27px;
-	font-size: 25px;
+	font-size: 24px;
 	font-weight: 700;
-	margin-top: -10px
 }
 
 .nav-links {
@@ -91,7 +92,7 @@ html {
 
 .nav-links a {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	font-size: 1.2rem;
 	font-weight: 400;
 	transition: .2s ease-in
@@ -129,4 +130,15 @@ html {
 #cart-button:hover {
 	-webkit-transform: scale(1.12);
 	transform: scale(1.12)
+}
+
+.navbar.sticky {
+	background: rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(19.5px);
+	-webkit-backdrop-filter: blur(1.5px);
+	color: #fff!important
+}
+
+.navbar.sticky .nav-links a {
+	color: #fff!important
 }
